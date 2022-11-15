@@ -32,6 +32,7 @@
                 default:
                     return true;
             }
+        }
  
         private static int CaptureInput()
         {
