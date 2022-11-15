@@ -36,7 +36,7 @@
  
         private static int CaptureInput()
         {
-            Console.Write("How many people per group?");
+            Console.Write("How many students per group?");
             return Convert.ToInt32(Console.ReadLine());
         }
  
