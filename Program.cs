@@ -132,7 +132,7 @@
                 String[] team = new String[membersPerTeam];
                 for (int j = 0; j < membersPerTeam; j++)
                 {
-                    var random = new Random(DateTime.Now.Millisecond);
+                    var random = new Random(DateTime.Now.Millisecond);    // Randomiza os grupos forma aleatória 
                     var  index = random.Next(students.Count);
                     var teamMember = students[index];
                     team[j] = teamMember;
