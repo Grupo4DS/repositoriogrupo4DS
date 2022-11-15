@@ -43,36 +43,36 @@
         private static void StudentToAnswer()
         {
             var students = new List<string>(){};
-            students.Add("AFONSO Almeida");
-            students.Add("PAULO Henriques");
-            students.Add("NUNO Pereira");
-            students.Add("DANIEL Nogueira");
-            students.Add("Pedro MARQUES");
-            students.Add("BRUNO Moreira");
-            students.Add("PEDRO MONTEIRO da Rocha");
+            students.Add("Afonse Almeida");
+            students.Add("Paulo Henriques");
+            students.Add("Nuno Pereira");
+            students.Add("Daniel Nogueira");
+            students.Add("Pedro Marques");
+            students.Add("Bruno Moreira");
+            students.Add("Pedro Monteiro da Rocha");
             students.Add("João Costa");
-            students.Add("LUÍS Moreira");
-            students.Add("BRUNO LOPES");
-            students.Add("MATHEUS Silva");
-            students.Add("CRISTIANO Loução");
-            students.Add("DIOGO SABINO");
+            students.Add("Luís Moreira");
+            students.Add("Bruno Lopes");
+            students.Add("Matheus Silva");
+            students.Add("Cristiano Loução");
+            students.Add("Diogo Sabino");
             students.Add("Gonçalo Freitas");
-            students.Add("BRUNO MAGALHÃES");
-            students.Add("GONÇALO PEREIRA");
-            students.Add("NUNO FERRAZ");
-            students.Add("DIOGO SILVA");
-            students.Add("SIMONE Santos");
-            students.Add("RAFAEL Silva");
-            students.Add("PEDRO MARTINS");
-            students.Add("PEDRO NEVES");
-            students.Add("TIAGO Pinto");
-            students.Add("GUSTAVO Ribeiro");
-            students.Add("JOÃO Barros");
-            students.Add("PEDRO COSTA");
-            students.Add("MARCOS Ribeiro");
-            students.Add("LEANDRO Luz");
-            students.Add("FRANCISCO DIAS");
-            students.Add("LEONARDO Andrade");
+            students.Add("Bruno Magalhães");
+            students.Add("Gonçalo Pereira");
+            students.Add("Nuno Ferraz");
+            students.Add("Diogo Silva");
+            students.Add("Simone Santos");
+            students.Add("Rafael Silva");
+            students.Add("Pedro Martins");
+            students.Add("Pedro Neves");
+            students.Add("Tiago Pinto");
+            students.Add("Gustavo Ribeiro");
+            students.Add("João Barros");
+            students.Add("Pedro Costa");
+            students.Add("Marcos Ribeiro");
+            students.Add("Leandro Luz");
+            students.Add("Francisco Dias");
+            students.Add("Leonardo Andrade");
 
             //Get Random Value to find student
         
