@@ -141,7 +141,7 @@
                 teams.Add(team);
             }
 
-            for(int i=0;i<teams.Count;i++)
+            for(int i=0;i<teams.Count;i++)  // Informação dos grupos
             {
                 var team = teams[i];
                 var groupNr = i+1;
