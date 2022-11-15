@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            bool showMenu = true;
+            var showMenu = true;
             while (showMenu)
             {
                 showMenu = MainMenu();
@@ -77,7 +77,7 @@
             //Get Random Value to find student
             //Este é outro comentário que me tinha esquecido. 
             var random = new Random(DateTime.Now.Millisecond);
-            var  index = random.Next(students.Count);
+            var index = random.Next(students.Count);
             
             Console.WriteLine(students[index]);
             Console.Write("\r\nPress Enter to return to Main Menu");
@@ -122,7 +122,7 @@
 
             var membersPerTeam = CaptureInput();
 
-            int teamCount = students.Count / membersPerTeam;
+            var teamCount = students.Count / membersPerTeam;
             var teams = new List<String[]>();
 
             //This for cycle will create as many groups as needed
