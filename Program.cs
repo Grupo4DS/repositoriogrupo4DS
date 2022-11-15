@@ -34,7 +34,7 @@
             }
         }
  
-        private static int CaptureInput()
+        private static int Input()
         {
             Console.Write("How many students per group?");
             return Convert.ToInt32(Console.ReadLine());
@@ -120,7 +120,7 @@
             
             Console.Clear();
 
-            var membersPerTeam = CaptureInput();
+            var membersPerTeam = Input();
 
             var teamCount = students.Count / membersPerTeam;
             var teams = new List<String[]>();
