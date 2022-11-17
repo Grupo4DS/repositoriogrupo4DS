@@ -42,7 +42,7 @@
  
         private static void StudentToAnswer()
         {
-            var students = new List<string>(){};
+            var  students = new List<string>(){};
             students.Add("Afonse Almeida");
             students.Add("Paulo Henriques");
             students.Add("Nuno Pereira");
